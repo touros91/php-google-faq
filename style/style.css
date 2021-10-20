@@ -14,7 +14,7 @@ body {
 header {
     padding: 20px 20px 0px 20px;
     color: #5F6368;
-    border-bottom: 1px solid #5F6368;
+    border-bottom: 1px solid lightgray;
 }
 
 /* header top  */
@@ -71,5 +71,39 @@ h1 {
 .header-bottom ul li:active, .header-bottom ul li:last-child{
     color: #3367D6;
     border-bottom: 4px solid #3367D6;
-    padding-bottom: 15px;
+    padding-bottom: 8px;
+}
+
+/* main  */
+
+.container-80 {
+    max-width: 77%;
+    margin: 0 auto;
+    padding: 100px 0 50px 0;
+}
+
+.container-80 h2{
+    color: #3C4043;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.container-80 h2:first-child{
+    margin-top: 0px;
+}
+
+.container-80 p {
+    color: #212121;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container-80 p a {
+    text-decoration: none;
+    color: #3367D6;
+}
+
+.container-80 h3 {
+    color: #3C4043;
+    font-weight: 600;
 }
