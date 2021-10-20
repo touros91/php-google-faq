@@ -48,6 +48,28 @@ h1 {
     margin-left: 5px;
     margin-top: 2px;
 }
+.app-accedi {
+    display: flex;
+}
+
+.icon-box {
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.icon-box:hover {
+    background-color: rgb(241, 239, 239);
+}
+
+.app-accedi i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .app-accedi button {
     padding: 11px 28px;
@@ -59,6 +81,12 @@ h1 {
     background-color: #2B7DE9;
     margin-left: 20px;
 }
+.app-accedi button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+
 
 /* header bottom */
 .header-bottom ul {
