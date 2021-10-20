@@ -134,6 +134,12 @@ main .container-80 {
     color: #3367D6;
 }
 
+.container-80 ol li {
+    color: #212121;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
 .container-80 h3 {
     color: #3C4043;
     font-weight: 600;
