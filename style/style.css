@@ -169,11 +169,20 @@ footer .container-80 ul li a {
     text-decoration: none;
     color: #8B8B8B;
 }
-.language select {
-    height: 22px;
-    font-size: 15px;
+
+.language {
+    display: flex;
+    justify-content: space-between;
 }
-.language i {
-    color: #3EABF8;
-    font-size: 18px;
+
+.icon-language {
+    width: 20px;
+}
+.icon-language img {
+    width: 100%;
+}
+
+.language select {
+    font-size: 15px;
+    margin-left: 5px;
 }
